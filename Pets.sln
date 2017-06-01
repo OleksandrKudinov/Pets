@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets.WebAPIApp", "Pets.WebAPIApp\Pets.WebAPIApp.csproj", "{53F6B325-1A8C-40A3-9861-1531079A41B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets.Models", "Pets.Models\Pets.Models.csproj", "{069BA070-4ADC-4C81-B572-94C7B9293134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pets.Database", "Pets.Database\Pets.Database.csproj", "{CFFCEE7E-8D67-4738-910B-86994854AD7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{53F6B325-1A8C-40A3-9861-1531079A41B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F6B325-1A8C-40A3-9861-1531079A41B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F6B325-1A8C-40A3-9861-1531079A41B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069BA070-4ADC-4C81-B572-94C7B9293134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069BA070-4ADC-4C81-B572-94C7B9293134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069BA070-4ADC-4C81-B572-94C7B9293134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069BA070-4ADC-4C81-B572-94C7B9293134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFCEE7E-8D67-4738-910B-86994854AD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFCEE7E-8D67-4738-910B-86994854AD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFCEE7E-8D67-4738-910B-86994854AD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFCEE7E-8D67-4738-910B-86994854AD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
