@@ -11,11 +11,11 @@ namespace Pets.Database
             System.Data.Entity.Database.SetInitializer(new PetDbInit());
         }
 
-        public PetsDbContext(): this("Data Source=DESKTOP-K21PL9C\\MSSQLSERVER2016;Initial Catalog=Pets;Integrated Security=True")
+        public PetsDbContext(): this("PetsDbContext")
         {
             
         }
-
+        
         public DbSet<PetOwner> Owners { get; set; }
         public DbSet<Pet> Pets { get; set; }
 
